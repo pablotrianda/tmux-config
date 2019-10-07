@@ -1,6 +1,6 @@
 #!/bin/bash 
 echo --------------------------------------------------------------
-echo "Getting .vimrc file"               
+echo "Getting tmux.conf file"               
 echo --------------------------------------------------------------
 curl -fsSL https://raw.githubusercontent.com/pablotrianda/tmux-config/master/tmux.conf >> tmux.conf
 while true; do
