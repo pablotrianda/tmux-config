@@ -1,4 +1,8 @@
 #!/bin/bash 
+echo --------------------------------------------------------------
+echo "Getting .vimrc file"               
+echo --------------------------------------------------------------
+curl -fsSL https://raw.githubusercontent.com/pablotrianda/tmux-config/master/tmux.conf >> tmux.conf
 while true; do
 echo --------------------------------------------------------------
 echo "WARNING, this script will replace the .tmux.conf file"
