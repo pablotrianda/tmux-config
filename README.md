@@ -1,11 +1,15 @@
-# tmux-config
-#2020
-# Install
-**Run**: 
+# Tmux configuration
+![alt text](https://i.ibb.co/VQbpxr9/tmux.png)
+## Install
+**Run**:
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/pablotrianda/tmux-config/master/install_config.sh)" 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/pablotrianda/tmux-config/master/install_config.sh)"
 ```
-# To start in login:
+## Custom Keybinding
+* **CTRL+a** → Leader key
+* **-** → Split Vertically
+* **|** → Split Horizontally
+* **z** → Expand pane
+* **;** → Rename pane
 
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+
