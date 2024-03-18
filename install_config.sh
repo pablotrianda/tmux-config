@@ -15,5 +15,7 @@ esac
 done
 echo "Replacing tmux file"
 cp tmux.conf ~/.tmux.conf
+mkdir ~/.tmux_scripts
+cp scripts/* ~/.tmux_scripts
 echo "Tmux is OK!"
 
