@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EMOJIS=(😺 🙉 🙊 😸  🦆 ⚓ 🚀 😹 💣 😼 😽 😾 💩 😼 🙈  🚣 🤑 🤖 🤘 🤙 🧟 🦖 🛸 💸 🤡 🤯)
+EMOJIS=(😺 🙉 🙊 😸  🦆 ⚓ 🚀 😹 💣 😼 😽 😾 💩 😼 🙈  🚣 🤑 🤖 🤘 🤙 🧟 🦖 🛸 💸 🤡 🤯 🔥 🕶️ 💯 🧉 👽 ☠️ 😎)
 
 SELECTED_EMOJI=${EMOJIS[$RANDOM % ${#EMOJIS[@]}]};
 
